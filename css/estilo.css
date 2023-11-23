@@ -87,7 +87,27 @@ ul li a:hover{
     background-size: 18px;
     background-repeat: no-repeat;
 }
+#bordeImagen{
+    background-color: #d46b68;
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+    width: 80%;
+    margin: auto;
     
+}
+#img{
+    border-radius: 10px;
+}
+    h1{
+        text-align: center;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+#datosDetalle{
+    text-align: justify;
+    padding: 40px;
 
+}
 
 
