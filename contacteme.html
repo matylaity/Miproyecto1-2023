@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/contacto.css">
     <title>Document</title>
 </head>
 <body>
@@ -27,31 +28,32 @@
     </div>
     <!--Aqui colocamos el cuerpo del index -->
     <div id="cuerpoContenido">
-        <div id="cuerpoImagen">
-            <div id="bordeImagen"> 
-              <img src="/img/Recurso 1.png" height="400" width="480">
-            </div>
-            </div>
-        <div id="cuerpoDetalle">
-            <h1>Bienvenido</h1>   
-            <div id="datosDetalle">
-                <p>El momento de empezar a trabajar con una empresa puede resultar abrumador para una persona, 
-                 sea un nuevo cliente o empleado.
-                  Insertarse a una empresa donde todo es nuevo y aprender
-                 rápidamente la dinámica de trabajo y las tareas del cargo, puede requerir de un gran 
-                    esfuerzo por parte del trabajador.</p>
-            </div>     
-            <div id="botones">
-                <div id="botonFavorito">
-                    <div id="marcoFavorito" class="disenoBoton">Persona Favorita</div>
+        <div id="formularioDatos">
+            <fieldset>
+                <legend>MIS DATOS</legend>
+                <form>
+                    <label>Nombre</label>
+                    <input type="text" placeholder="ingrese su nombre"> 
+                    <label> apellido</label>
+                    <input type="text" placeholder="ingrese su apellido">
+                    <label>Edad</label>
+                    <input type="number">
+                    <select>
+                        <option value="cbba">cochabamba</option>
+                        <option value="scz">Santa Cruz</option>
+                        <option value="lpz">La Paz</option>
+                        <option value="trj">Tarija</option>
+                        <option value="pt">Potosi</option>
+                    </select>
+                    <label>Descripción</label>
+                    <textarea></textarea>
+                    <input type="button" value="INSERTAR">
                     
-                </div>
-                <div id="botonUbicacion">
-            <div id="marcoUbicacion" class="disenoBoton"> Mi Ubicacion</div>
-                    
-                </div>
-            </div>                     
+
+                </form>
+            </fieldset>
         </div>
+    </div>
     
     </div>
     <!--Aqui colocamos el pie de la web-->
